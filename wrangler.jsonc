@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "weatherapi",
+  "main": "src/index.tsx",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "compatibility_date": "2025-05-19",
+  "vars": {
+    "WEATHER_API_KEY": "2235e1fba60c4930825131644251805",
+    "DATABASE_URL": "postgresql://weather_owner:npg_gBZw9SFh2THN@ep-aged-hall-a20krp26-pooler.eu-central-1.aws.neon.tech/weather?sslmode=require",
+    "NODE_ENV": "production"
+  },
+}
